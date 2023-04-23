@@ -9,7 +9,7 @@ for i in range(number_):
     for j in listin[1:]:
         tedadzhanr[j]=tedadzhanr.get(j,0)+1
 tedadzhanr=sorted(tedadzhanr.items(),key=lambda x: (-x[1],x[0]))
-
+# calluate result
 for zhanr in tedadzhanr:
     
           print(zhanr[0],":",zhanr[1])
